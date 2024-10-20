@@ -29,3 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
         },
     });
 });
+
+// For Testomonials
+
+const swiper = new Swiper('.navi-container', {
+    direction: 'horizontal',
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
