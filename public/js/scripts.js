@@ -17,3 +17,15 @@ const navbarCollapse = document.querySelector('.navbar-collapse');
 navbarToggler.addEventListener('click', () => {
     console.log("Clicked")
 });
+
+// Latest news swiper
+document.addEventListener('DOMContentLoaded', () => {
+    const swiper = new Swiper('.pagination-container', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+});
