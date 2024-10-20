@@ -25,7 +25,7 @@ header {
     position: absolute;
     top: 50%;
     left: 30%;
-    width: 30%; 
+    width: 30%;
     max-width: 600px;
     transform: translate(-50%, -50%);
     color: white;
@@ -36,8 +36,8 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
 }
 
 /* --------- About us --------- */
@@ -46,27 +46,25 @@ header {
     font-size: 3.5rem;
     margin-bottom: 20px;
     position: relative;
-    display: inline-block; 
+    display: inline-block;
     color: rgb(22, 22, 255);
 }
 
 #about-section h1::after {
     content: '';
-    width: 200px; 
-    height: 4px; 
-    background-color: #8d8d8d; 
+    width: 200px;
+    height: 4px;
+    background-color: #8d8d8d;
     display: block;
-    margin: 8px auto 0 auto; 
+    margin: 8px auto 0 auto;
     position: relative;
 }
 
 #about-section p {
-    font-size: 1.2rem; 
-    max-width: 800px; 
-    margin: 0 auto; 
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
-
-
 
 /* --------- Latest News --------- */
 
@@ -74,20 +72,19 @@ header {
     font-size: 3.5rem;
     margin-bottom: 20px;
     position: relative;
-    display: inline-block; 
+    display: inline-block;
     color: rgb(22, 22, 255);
 }
 
 #latest-news h1::after {
     content: '';
-    width: 300px; 
-    height: 4px; 
-    background-color: #8d8d8d; 
+    width: 300px;
+    height: 4px;
+    background-color: #8d8d8d;
     display: block;
-    margin: 8px auto 0 auto; 
+    margin: 8px auto 0 auto;
     position: relative;
 }
-
 
 .latest-news-section {
     padding: 60px 0;
@@ -109,9 +106,9 @@ header {
 }
 
 .news-card img {
-    width: 100%; 
-    height: auto; 
-    display: block; 
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .news-card h3 {
@@ -135,11 +132,10 @@ header {
     background-color: #007bff;
 }
 
-.swiper-pagination{
+.swiper-pagination {
     position: absolute;
     bottom: 1000px;
 }
-
 
 /* ------------------- Testomonials ------------------- */
 
@@ -147,78 +143,77 @@ header {
     font-size: 3.5rem;
     margin-bottom: 20px;
     position: relative;
-    display: inline-block; 
+    display: inline-block;
     color: rgb(22, 22, 255);
 }
 
 #testomonials-section h1::after {
     content: '';
-    width: 300px; 
-    height: 4px; 
-    background-color: #8d8d8d; 
+    width: 300px;
+    height: 4px;
+    background-color: #8d8d8d;
     display: block;
     margin: 8px auto 0 auto;
     position: relative;
 }
 
-.testomonials-title{
+.testomonials-title {
     width: 100%;
     text-align: center;
 }
 
 .navi-container {
-    width: 100%; 
-    height: 300px; 
-    margin: auto; 
+    width: 100%;
+    height: 300px;
+    margin: auto;
     position: relative;
     height: 100%;
 }
 
-.navi-wrapper{
+.navi-wrapper {
     display: flex;
     height: 100%;
 }
 
 .single-slide {
-    display: flex;             
-    flex-direction: column;   
-    justify-content: center;   
-    align-items: center;      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     height: 100%;
     width: 70%;
 }
 
-#testomonials-section p{
+#testomonials-section p {
     width: 100%;
     text-align: center;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: white; 
-    background-color: rgba(0, 0, 0, 0.7); 
-    border-radius: 50%; 
-    width: 50px; 
-    height: 50px; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 10; 
-    transition: background-color 0.3s; 
+    z-index: 10;
+    transition: background-color 0.3s;
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-    background-color: rgba(0, 0, 0, 0.9); 
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-    font-size: 24px; 
-    color: white; 
+    font-size: 24px;
+    color: white;
 }
-
 
 /* ----------------- Contact us section ----------------- */
 
@@ -226,15 +221,15 @@ header {
     font-size: 3.5rem;
     margin-bottom: 20px;
     position: relative;
-    display: inline-block; 
+    display: inline-block;
     color: rgb(22, 22, 255);
 }
 
 #contact-us h1::after {
     content: '';
-    width: 300px; 
-    height: 4px; 
-    background-color: #8d8d8d; 
+    width: 300px;
+    height: 4px;
+    background-color: #8d8d8d;
     display: block;
     margin: 8px auto 0 auto;
     position: relative;
@@ -246,7 +241,7 @@ header {
 
 .map-responsive {
     overflow: hidden;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     position: relative;
     height: 0;
 }
@@ -257,4 +252,48 @@ header {
     left: 0;
     width: 100%;
     height: 60%;
+}
+
+/* ----------------- Footer ----------------- */
+
+.footer-section {
+    background-color: #4747ff;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.footer-item {
+    background-color: #4747ff;
+    flex: 1 1 45%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer-item p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .footer-item {
+        flex: 1 1 100%;
+    }
+}
+
+.social-icon {
+    width: 27px;
+    height: auto;
+    cursor: pointer;
 }
